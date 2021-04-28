@@ -30,7 +30,8 @@ var Usersurname = prompt("What's your Surname?");
     console.log(surnamesLowerCases);                                   //checking that the array is now lowercase;
 
 
-
+    Usersurname = Usersurname.toLowerCase();                            //Saving the username variable as lowercase
+    
     // 3. stampa la lista ordinata alfabeticamente
     surnamesLowerCases.sort();
     console.log(surnamesLowerCases);                                    //sorting the Array surnamesLowerCases alphabetically
@@ -40,4 +41,5 @@ var Usersurname = prompt("What's your Surname?");
      della lista in cui il nuovo utente si trova*/
     
     surnamesLowerCases.indexOf(Usersurname);                             //printing the index of the surname inside of the Array surnameLowerCases in a Human-friendly way 
-    console.log(surnamesLowerCases.indexOf(Usersurname));  
+    // console.log(surnamesLowerCases.indexOf(Usersurname));  
+    console.log(surnamesLowerCases.indexOf(Usersurname)+1); 

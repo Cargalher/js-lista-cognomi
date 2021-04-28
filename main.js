@@ -17,12 +17,14 @@ var Usersurname = prompt("What's your Surname?");
     surnames.push(Usersurname);  //with this I add the Usersurname, I asked for, to the Array surnames.
     console.log(surnames);
 
-// converting surnames in Lowercases
-// var surnamesLowerCases = Usersurname.toLowerCase
-// console.log(surnamesLowerCases);
+
+    var surnamesLowerCases = [];            //declaring empty array to store the surnames in lowercase
+
 
     var i = 0;
     while (i< surnames.length){
-        console.log(surnames[i]);                               //using ciclo while
+        surnamesLowerCases.push(surnames[i].toLowerCase());                    //using ciclo while
         i++
-    }
+    };
+    
+    console.log(surnamesLowerCases);                                                          //checking that the array is now lowercase;

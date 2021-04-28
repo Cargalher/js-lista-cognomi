@@ -13,18 +13,24 @@ var surnames = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 var Usersurname = prompt("What's your Surname?");
 // console.log("Usersurname");
 
+
 // 2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
     surnames.push(Usersurname);  //with this I add the Usersurname, I asked for, to the Array surnames.
     console.log(surnames);
 
 
-    var surnamesLowerCases = [];            //declaring empty array to store the surnames in lowercase
+    var surnamesLowerCases = [];                                       //declaring empty array to store the surnames in lowercase
 
 
     var i = 0;
     while (i< surnames.length){
-        surnamesLowerCases.push(surnames[i].toLowerCase());                    //using ciclo while
+        surnamesLowerCases.push(surnames[i].toLowerCase());            //using ciclo while
         i++
     };
-    
-    console.log(surnamesLowerCases);                                                          //checking that the array is now lowercase;
+    console.log(surnamesLowerCases);                                   //checking that the array is now lowercase;
+
+
+
+    // 3. stampa la lista ordinata alfabeticamente
+    surnamesLowerCases.sort();
+    console.log(surnamesLowerCases);                                          //sorting the Array surnamesLowerCases alphabetically

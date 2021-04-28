@@ -16,3 +16,13 @@ var Usersurname = prompt("What's your Surname?");
 // 2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
     surnames.push(Usersurname);  //with this I add the Usersurname, I asked for, to the Array surnames.
     console.log(surnames);
+
+// converting surnames in Lowercases
+// var surnamesLowerCases = Usersurname.toLowerCase
+// console.log(surnamesLowerCases);
+
+    var i = 0;
+    while (i< surnames.length){
+        console.log(surnames[i]);                               //using ciclo while
+        i++
+    }

@@ -33,4 +33,11 @@ var Usersurname = prompt("What's your Surname?");
 
     // 3. stampa la lista ordinata alfabeticamente
     surnamesLowerCases.sort();
-    console.log(surnamesLowerCases);                                          //sorting the Array surnamesLowerCases alphabetically
+    console.log(surnamesLowerCases);                                    //sorting the Array surnamesLowerCases alphabetically
+
+
+    /* 4. scrivi anche la posizione "umana" (partendo da 1)
+     della lista in cui il nuovo utente si trova*/
+    
+    surnamesLowerCases.indexOf(Usersurname);                             //printing the index of the surname inside of the Array surnameLowerCases in a Human-friendly way 
+    console.log(surnamesLowerCases.indexOf(Usersurname));  

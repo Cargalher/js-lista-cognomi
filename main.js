@@ -10,6 +10,8 @@ var Usersurname = prompt("What's your Surname?");
 console.log("Usersurname");
 // 2. inseriscilo in un array con altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’_ declaring an array of surnames
 var surnames = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
-console.log("surnames");
+// console.log("surnames");
 console.log(surnames);
-// surnames.push(Usersurname);  //with this I add the Usersurname, I asked for, to the Array surnames.
+
+surnames.push(Usersurname);  //with this I add the Usersurname, I asked for, to the Array surnames.
+console.log(surnames);

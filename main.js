@@ -43,3 +43,14 @@ var Usersurname = prompt("What's your Surname?");
     surnamesLowerCases.indexOf(Usersurname);                             //printing the index of the surname inside of the Array surnameLowerCases in a Human-friendly way 
     // console.log(surnamesLowerCases.indexOf(Usersurname));  
     console.log(surnamesLowerCases.indexOf(Usersurname)+1); 
+
+
+/*
+    var listElements = document.getElementById('list').innerHTML;
+    for (var i = 0; i< Usersurname.length; i++){
+        var surname = Usersurname[i];                                                                   //print list in browser 3 ways (by fabio, applied with the var fabio created for his correction so is not working)
+        document.getElementById('list').innerHTML = listElements + '<li>' + surname + '</li>';
+        doument.getElementById('list').insertAdjacentHTML('beforeend', '<li>' + lastname + '</li>');
+        doument.getElementById('list').insertAdjacentHTML('beforeend','<li> ${lastname} </li>');  ///versione con insertAdjacentHTML
+    }
+    */
